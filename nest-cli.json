@@ -1,0 +1,39 @@
+{
+  "collection": "@nestjs/schematics",
+  "sourceRoot": "apps/savejung/src",
+  "projects": {
+    "dynamo-repo": {
+      "type": "library",
+      "root": "libs/dynamo-repo",
+      "entryFile": "index",
+      "sourceRoot": "libs/dynamo-repo/src",
+      "compilerOptions": {
+        "tsConfigPath": "libs/dynamo-repo/tsconfig.lib.json"
+      }
+    },
+    "savejung": {
+      "type": "application",
+      "root": "apps/savejung",
+      "entryFile": "main",
+      "sourceRoot": "apps/savejung/src",
+      "compilerOptions": {
+        "tsConfigPath": "apps/savejung/tsconfig.app.json"
+      }
+    },
+    "account": {
+      "type": "application",
+      "root": "apps/account",
+      "entryFile": "main",
+      "sourceRoot": "apps/account/src",
+      "compilerOptions": {
+        "tsConfigPath": "apps/account/tsconfig.app.json"
+      }
+    }
+  },
+  "compilerOptions": {
+    "webpack": true,
+    "tsConfigPath": "apps/savejung/tsconfig.app.json"
+  },
+  "monorepo": true,
+  "root": "apps/savejung"
+}
