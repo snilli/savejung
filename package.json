@@ -24,7 +24,11 @@
     "@nestjs/common": "^7.6.13",
     "@nestjs/core": "^7.6.13",
     "@nestjs/platform-express": "^7.6.13",
+    "@types/cheerio": "^0.22.24",
+    "agentkeepalive": "^4.1.4",
+    "cheerio": "^1.0.0-rc.5",
     "global": "^4.4.0",
+    "phin": "^3.5.1",
     "reflect-metadata": "^0.1.13",
     "rimraf": "^3.0.2",
     "rxjs": "^6.6.6"
@@ -70,7 +74,11 @@
     ],
     "moduleNameMapper": {
       "@app/share/(.*)": "<rootDir>/libs/share/src/$1",
-      "@app/share": "<rootDir>/libs/share/src"
+      "@app/share": "<rootDir>/libs/share/src",
+      "@app/query-dom/(.*)": "<rootDir>/libs/query-dom/src/$1",
+      "@app/query-dom": "<rootDir>/libs/query-dom/src",
+      "@app/request/(.*)": "<rootDir>/libs/request/src/$1",
+      "@app/request": "<rootDir>/libs/request/src"
     }
   }
 }

@@ -12,6 +12,10 @@
   },
   "moduleNameMapper": {
     "@app/share/(.*)": "<rootDir>/../libs/share/src/$1",
-    "@app/share": "<rootDir>/../libs/share/src"
+    "@app/share": "<rootDir>/../libs/share/src",
+    "@app/query-dom/(.*)": "<rootDir>/../libs/query-dom/src/$1",
+    "@app/query-dom": "<rootDir>/../libs/query-dom/src",
+    "@app/request/(.*)": "<rootDir>/../libs/request/src/$1",
+    "@app/request": "<rootDir>/../libs/request/src"
   }
 }

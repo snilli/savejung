@@ -16,6 +16,18 @@
       ],
       "@app/share/*": [
         "libs/share/src/*"
+      ],
+      "@app/query-dom": [
+        "libs/query-dom/src"
+      ],
+      "@app/query-dom/*": [
+        "libs/query-dom/src/*"
+      ],
+      "@app/request": [
+        "libs/request/src"
+      ],
+      "@app/request/*": [
+        "libs/request/src/*"
       ]
     }
   },

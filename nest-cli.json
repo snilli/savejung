@@ -10,6 +10,24 @@
       "compilerOptions": {
         "tsConfigPath": "libs/share/tsconfig.lib.json"
       }
+    },
+    "query-dom": {
+      "type": "library",
+      "root": "libs/query-dom",
+      "entryFile": "index",
+      "sourceRoot": "libs/query-dom/src",
+      "compilerOptions": {
+        "tsConfigPath": "libs/query-dom/tsconfig.lib.json"
+      }
+    },
+    "request": {
+      "type": "library",
+      "root": "libs/request",
+      "entryFile": "index",
+      "sourceRoot": "libs/request/src",
+      "compilerOptions": {
+        "tsConfigPath": "libs/request/tsconfig.lib.json"
+      }
     }
   },
   "compilerOptions": {
